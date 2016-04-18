@@ -10,18 +10,14 @@ class UsersController < ApplicationController
     marker.lng user.longitude
     marker.title user.title
   end
-
+end
   def create
     @user = User.new params.require(:user).permit(:email, :password, :password_confirmation)
     if @user.save
-      # sign in
       session[:user_id] = @user.id
-      # redirect
-      redirect_to root_path, notice: "Thanks for signing up!"
+      redirect_to drop_in_path, notice: "Thanks for signing up!"
     else
       render :new
     end
   end
-end
-
 end
