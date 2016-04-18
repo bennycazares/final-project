@@ -1,0 +1,2 @@
+module Api::DropInHelper
+end
