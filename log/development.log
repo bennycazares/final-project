@@ -48770,3 +48770,3176 @@ ActionController::RoutingError (No route matches [GET] "/api/service_providers")
 
   Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.7ms)
   Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (29.0ms)
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 22:37:09 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DropInController#new as HTML
+  [1m[35mUser Load (1.6ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered drop_in/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 635ms (Views: 584.6ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/assets/application.self-4b1f07eb10e30200548d20ee5949efd2c3fcf7e75e9b5a0dde647278f50e065d.css?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:37:10 -0500
+
+
+Started GET "/api/service_providers?lat=30.0844011&lng=-95.4980545" for ::1 at 2016-04-17 22:37:19 -0500
+
+ActionController::RoutingError (No route matches [GET] "/api/service_providers"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (16.3ms)
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 22:42:18 -0500
+Processing by DropInController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered drop_in/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1664ms (Views: 1662.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:42:19 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:42:20 -0500
+
+
+Started GET "/api/service_providers?lat=30.084361899999998&lng=-95.4980868" for ::1 at 2016-04-17 22:42:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/api/service_providers"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.9ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (18.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:47:19 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered home/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.3ms)
+
+SyntaxError (/Users/Benny/Desktop/theironyard/rails/final-project/app/views/home/index.html.erb:12: syntax error, unexpected keyword_class, expecting ')'
+...nd=( link_to 'Find A Box' class: "btn btn-primary", drop_in_...
+...                               ^
+/Users/Benny/Desktop/theironyard/rails/final-project/app/views/home/index.html.erb:12: syntax error, unexpected ',', expecting ')'
+... Box' class: "btn btn-primary", drop_in_path );@output_buffe...
+...                               ^):
+  app/views/home/index.html.erb:12: syntax error, unexpected keyword_class, expecting ')'
+  app/views/home/index.html.erb:12: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (58.0ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (46.6ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:48:06 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+SyntaxError (/Users/Benny/Desktop/theironyard/rails/final-project/app/views/home/index.html.erb:13: syntax error, unexpected keyword_class, expecting ')'
+...nd=( link_to 'Find A Box' class: "btn btn-primary", drop_in_...
+...                               ^
+/Users/Benny/Desktop/theironyard/rails/final-project/app/views/home/index.html.erb:13: syntax error, unexpected ',', expecting ')'
+... Box' class: "btn btn-primary", drop_in_path );@output_buffe...
+...                               ^):
+  app/views/home/index.html.erb:13: syntax error, unexpected keyword_class, expecting ')'
+  app/views/home/index.html.erb:13: syntax error, unexpected ',', expecting ')'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.0ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.1ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (115.6ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:48:52 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 97ms (Views: 95.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:48:52 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:52:29 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered sessions/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 83ms (Views: 81.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:54:09 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered sessions/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:54:09 -0500
+
+
+Started GET "/" for ::1 at 2016-04-17 22:54:26 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 55ms (Views: 52.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:54:26 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:54:31 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"+VtYr3A4ALvklhEKCGhA3V7Hp7IL1aUR/Sho8QflIagUkZ+4nXR0j0BOoyZmhgZ2rlUNCmCTw0sWXx1FzLYQqA=="}
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 1]]
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:54:31 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 73ms (Views: 70.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:54:32 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:54:34 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"+YpZAl7ryaF90ewC/OAiWqZ0avoYNwwXsExfDuOSgi0UQJ4Vs6e9ldkJXi6SDmTxVubAQnNxak1bOyq6KMGzLQ=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:54:34 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 84ms (Views: 80.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:54:34 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:54:37 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"hPTc7XEblaloQHg1WFCIH49jZJpU7lhB967L9hjTqT5pPhv6nFfhncyYyhk2vs60f/HOIj+oPhsc2b5C04CYPg=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:54:37 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 65ms (Views: 61.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:54:37 -0500
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 22:54:39 -0500
+Processing by DropInController#new as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:54:39 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:54:49 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 86ms (Views: 84.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:54:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:54:50 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:54:52 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:54:52 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:54:53 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 74ms (Views: 72.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:54:53 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:54:54 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:54:55 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"XlCDpECxahHcWEgiBwwWL0gVoOzP/ClBl+FbDHr7OiezmkSzrf0eJXiA+g5p4lCEuIcKVKS6Txt8li64sagLJw=="}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:54:55 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 92ms (Views: 91.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:54:55 -0500
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 22:54:57 -0500
+Processing by DropInController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:54:57 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 58ms (Views: 56.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:55:05 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:55:05 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:55:06 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 87ms (Views: 85.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:55:06 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:55:07 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 76ms (Views: 74.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:07 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:08 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:55:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:55:08 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:55:08 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"Hy4aXYP2BY4dXZFfrpM4BLlHe7AcD5QXToORo1cgFpLy5N1KbrpxurmFI3PAfX6vSdXRCHdJ8k2l9OQXnHMnkg=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:55:08 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:55:09 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:55:15 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"pScIoIgln+h9Vxrq1ccdoZ6pgABd0uDf2yRy+aHGBkNI7c+3ZWnr3NmPqMa7KVsKbjsquDaUhoUwUwdNapU3Qw=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:55:15 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 56ms (Views: 54.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:55:15 -0500
+
+
+Started DELETE "/sign_in" for ::1 at 2016-04-17 22:55:17 -0500
+Processing by SessionsController#delete as HTML
+  Parameters: {"authenticity_token"=>"37aZ87czIvGjKc+HCjw8Tdl/PHvv4AtJMNP7W3fIX1YyfF7kWn9WxQfxfatk0nrmKe2Ww4SmbRPbpI7vvJtuVg=="}
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 22:55:17 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:55:17 -0500
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 22:55:19 -0500
+Processing by DropInController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:55:19 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:55:23 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered users/new.html.erb within layouts/application (66.0ms)
+Completed 200 OK in 186ms (Views: 175.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:56:15 -0500
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered users/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 69ms (Views: 67.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:56:15 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:56:16 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:56:24 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered users/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:56:24 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:56:25 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:56:26 -0500
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered users/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:56:26 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:56:52 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered users/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 1716ms (Views: 1714.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:56:54 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:56:54 -0500
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered users/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 98ms (Views: 96.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:56:55 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:56:56 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered users/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 78ms (Views: 77.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:56:56 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:56:57 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:57:05 -0500
+Processing by UsersController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered users/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 1596ms (Views: 1595.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:57:07 -0500
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:57:08 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered users/new.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 92ms (Views: 90.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/application.self-1493593f5429a9ab441b79f126b2acbb77a83bc93c454517b23ea821577ad1d6.css?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 22:57:08 -0500
+
+
+Started GET "/" for ::1 at 2016-04-17 22:57:12 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 77ms (Views: 75.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 22:57:12 -0500
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 22:57:14 -0500
+Processing by DropInController#new as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 22:57:14 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 78ms (Views: 76.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/users/new" for ::1 at 2016-04-17 22:57:18 -0500
+Processing by UsersController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered users/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 68ms (Views: 66.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/users" for ::1 at 2016-04-17 22:58:40 -0500
+
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  actionpack (4.2.5.2) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.5.2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5.2) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5.2) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5.2) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (37.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (89.8ms)
+
+
+Started POST "/users" for ::1 at 2016-04-17 22:58:44 -0500
+
+AbstractController::ActionNotFound (The action 'create' could not be found for UsersController):
+  actionpack (4.2.5.2) lib/abstract_controller/base.rb:132:in `process'
+  actionview (4.2.5.2) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5.2) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5.2) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5.2) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.2) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.2) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5.2) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5.2) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/unknown_action.html.erb within rescues/layout (0.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (39.0ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (82.2ms)
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 23:02:52 -0500
+Processing by DropInController#new as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 23:02:53 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 57ms (Views: 54.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-17 23:02:54 -0500
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 51ms (Views: 49.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 23:02:55 -0500
+
+
+Started GET "/" for ::1 at 2016-04-17 23:03:57 -0500
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1890ms (Views: 1888.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-993e2476c90b6482331d782df81b1fe34614a8ccd135ba3e264a9d0f0bc80968.css?body=1" for ::1 at 2016-04-17 23:03:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/assets/emptybox.jpg" for ::1 at 2016-04-17 23:03:59 -0500
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 23:04:17 -0500
+Processing by DropInController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+Redirected to http://localhost:3000/sign_in
+Filter chain halted as :authenticate_user! rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 23:04:17 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 23:04:47 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1832ms (Views: 1829.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-9fd491e5c1c97310441c460a647918ed6693bfcceccf360e98fb28926aefa8cd.css?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 23:04:49 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 23:04:50 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 64ms (Views: 62.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-9fd491e5c1c97310441c460a647918ed6693bfcceccf360e98fb28926aefa8cd.css?body=1" for ::1 at 2016-04-17 23:04:50 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 23:04:50 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 23:04:50 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 23:04:50 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 23:04:51 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 23:05:46 -0500
+Processing by SessionsController#new as HTML
+  [1m[36mUser Load (6.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  Rendered sessions/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1756ms (Views: 1748.1ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/assets/application.self-ded3c590c603a2b13eec8e3ef3f8cfca0b13300d12e4876bac541631c5789a45.css?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 23:05:48 -0500
+
+
+Started GET "/sign_in" for ::1 at 2016-04-17 23:05:51 -0500
+Processing by SessionsController#new as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1
+  Rendered sessions/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 48ms (Views: 46.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-ded3c590c603a2b13eec8e3ef3f8cfca0b13300d12e4876bac541631c5789a45.css?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/underscore.self-8c17561264389571750ac522c272868d7105cf5e3f8af4761d09489b631d177c.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/api/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/drop_in.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/sessions.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/users.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-04-17 23:05:51 -0500
+
+
+Started POST "/sign_in" for ::1 at 2016-04-17 23:05:54 -0500
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2NWCkvyM757n2jsK90W77LMLxoaSdfvTzRfftQsPCa81H0WFEcCbqkMCiSaZq/1HQ5lsPvkznYkmYKoBwFw4rw==", "email"=>"benny.cazares@gmail.com", "password"=>"[FILTERED]", "commit"=>"Sign In"}
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT 1[0m
+  [1m[35mUser Load (6.2ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT 1  [["email", "benny.cazares@gmail.com"]]
+Redirected to http://localhost:3000/drop_in
+Completed 302 Found in 83ms (ActiveRecord: 6.5ms)
+
+
+Started GET "/drop_in" for ::1 at 2016-04-17 23:05:55 -0500
+Processing by DropInController#new as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered drop_in/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 120ms (Views: 118.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/api/service_providers?lat=30.0843754&lng=-95.4979882" for ::1 at 2016-04-17 23:05:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/api/service_providers"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+  /Users/Benny/.rubies/ruby-2.3.0/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+
+
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.6ms)
+  Rendered /Users/Benny/.gem/ruby/2.3.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (15.8ms)
