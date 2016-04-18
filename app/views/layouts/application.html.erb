@@ -14,20 +14,22 @@
   <header>
   <nav class="navbar navbar-form">
     <div class="container-fluid">
- <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 <ul class= "nav navbar-nav">
   <li class="link"><%=  link_to 'Home', root_path %></li>
   <li class="link"><%= link_to 'Drop In', drop_in_path %></li>
 </ul>
-  <!-- <li><% if @current_user.present? %>Hi <%= @current_user.email %></li> -->
  <ul class="nav navbar-nav navbar-right">
      <li class "link"><%= link_to 'Sign Out', sign_out_path, method: :delete %></li>
 </ul>
   </div>
-    <% end %>
-        </div>
+
+
+</div>
   </nav>
   </header>
+
+  <!-- <div class="username"><% if @current_user.present? %>Hi, <%= @current_user.email %> Here are some boxes near you <i class="fa fa-caret-square-o-down" aria-hidden="true"></i></div>
+  <% end %> -->
 
   <div class="flashes">
 
@@ -40,31 +42,18 @@
     <% end %>
   </div>
 
-    <%= yield %>
+  <%= yield %>
 
-<!-- <footer> <nav class= "navbar navbar-form"> -->
+  <!-- <footer class="footer">
+    <div class="container">
+      <p class="text-muted">
+        <i class="fa fa-copyright" aria-hidden="true"></i> Benny Cazares
+        <i class="fa fa-github" aria-hidden="true"></i> Github
+        <i class="fa fa-user" aria-hidden="true"></i> Website
+      </p>
 
-<footer class="footer">
-  <div class="container">
-    <p class="text-muted">
-      <i class="fa fa-copyright" aria-hidden="true"></i> Benny Cazares
-      <i class="fa fa-github" aria-hidden="true"></i> Github
-      <i class="fa fa-user" aria-hidden="true"></i> Website
-    </p>
-
-  </div>
-</footer>
-<!-- <div class="container">
-  <div class="navbar-fixed-bottom">
-    <div class="row">
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="#">about</a></li>
-        <li><a href="https://github.com/bennycazares">Github <i class="fa fa-github" aria-hidden="true"></i></a></li>
-        <li><a href="#">website <i class="fa fa-user" aria-hidden="true"></i></a></li>
-      </ul>
     </div>
-  </div>
-</div> -->
-<!-- </footer> -->
+  </footer> -->
+
 </body>
 </html>

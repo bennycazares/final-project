@@ -19,7 +19,7 @@ li {
   text-decoration: none;
 }
 .image {
-  background-image: url('box.jpg');
+  background-image: url('emptybox.jpg');
    position: relative;
    text-align: center;
    background-size: cover;
@@ -65,7 +65,7 @@ ul.nav li.active a {
 }
 h4 {
   text-align: center;
-  padding: 20px;
+  padding: 15px;
   font-family: 'Lato', sans-serif;
 
 }
@@ -73,11 +73,18 @@ h4 {
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 30px;
   background-color: #f5f5f5;
   padding-top: 5px;
   text-align: right;
   font-family: 'Lato', sans-serif;
-
+}
+.username {
+  background-color: #95a5a6;
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
