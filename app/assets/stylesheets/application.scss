@@ -12,6 +12,7 @@ header {
   background-color:#444B54;
   text-decoration-color: white;
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
 
 }
 li {
@@ -40,8 +41,12 @@ h2 {
 h3 a{
   text-decoration: none;
   color: white;
-  border-style:solid;
-  padding: 5px;
+  font-size: 15px;
+  padding: 8px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color:#444B54;
+
   }
 .navbar-form {
   text-decoration: none;
