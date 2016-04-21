@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
-  get 'drop_in/index'
+
+
+    resources :charges
+
+
+
+    get 'drop_in/index'
 
     get 'users/new'
 
