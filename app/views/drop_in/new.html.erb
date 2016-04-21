@@ -3,7 +3,6 @@
 <div id="map" style='width: 100%; height: 400px;'></div>
 
 
-
 <script type="text/javascript">
 $(document).on("ready",function(){
  var currentMarers = []
@@ -37,7 +36,7 @@ $(document).on("ready",function(){
              infowindow: '<h3>' + "Your Location!" + '</h3>'
        });
        handler.map.centerOn(marker);
-       $.getJSON("api/service_providers?lat="+ lt +"&lng=" + ln).then(function(myApiData){
+       $.getJSON("api/drop_in?lat="+ lt +"&lng=" + ln).then(function(myApiData){
          var markers = handler.addMarkers(myApiData.gmaps_data);
          currentMarkers = markers
          handler.bounds.extendWith(currentMarkers);
@@ -49,7 +48,7 @@ $(document).on("ready",function(){
    var $inputEl = $('.by-zip input')
    console.log(evt.target)
    var userZip = $inputEl.val()
-   $.getJSON("api/service_providers?post_code="+userZip).then(function(myApiData){
+   $.getJSON("api/drop_in?post_code="+userZip).then(function(myApiData){
      console.log(myApiData)
      console.log(currentMarkers)
      handler.buildMap(
@@ -76,3 +75,12 @@ $(document).on("ready",function(){
 })
 
 </script>
+
+<div class="table">
+    <tbody>
+      <tr>
+        <td>
+        </td>
+      </tr>
+    </tbody>
+</div>

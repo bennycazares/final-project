@@ -13,4 +13,6 @@ Rails.application.routes.draw do
     get 'drop_in' => 'drop_in#new', as: :drop_in
 
     root 'home#index'
+
+    get 'api/drop_in' => 'drop_in#index'
 end

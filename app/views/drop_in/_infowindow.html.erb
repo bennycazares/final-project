@@ -1,0 +1,9 @@
+<div class="partial">
+    <!-- <%=image_tag business.image_url%> -->
+  <h4><%=business.name%></h4>
+  <small> <%= business.location.display_address.join(',') %> </small>
+  <p> Tel: <%=link_to business.display_phone, "tel:#{business.display_phone}"%> </p>
+  <p> ratings: <%= business.rating%></p>
+
+
+</div>

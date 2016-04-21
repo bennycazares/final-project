@@ -11,6 +11,8 @@ class UsersController < ApplicationController
     marker.title user.title
   end
 end
+
+
   def create
     @user = User.new params.require(:user).permit(:email, :password, :password_confirmation)
     if @user.save
